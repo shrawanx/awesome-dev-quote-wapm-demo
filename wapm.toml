@@ -1,0 +1,14 @@
+[package]
+name = "bored/bored"
+version = "1.0.1"
+description = "Randomly outputs an awesome dev quotes"
+
+
+[[module]]
+name = "bored"
+source = "bored.wasm"
+abi = "emscripten"
+
+[[command]]
+name = "bb"
+module = "bored"
